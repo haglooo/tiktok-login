@@ -1,5 +1,5 @@
 from requests import Session
-from utils.qr import gen
+from qr import gen
 
 get = Session().get
 post = Session().post
